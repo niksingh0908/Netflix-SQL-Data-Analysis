@@ -3,8 +3,9 @@ SQL data analysis project using PostgreSQL to analyze Netflix movies and TV show
 
 ![Netflix logo](https://raw.githubusercontent.com/niksingh0908/Netflix-SQL-Data-Analysis/refs/heads/main/logo.png)
 
+## Schema  
 
-
+```sql
 DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix
 (
@@ -21,6 +22,8 @@ CREATE TABLE netflix
     listed_in    VARCHAR(250),
     description  VARCHAR(550)
 );
+
+```
 **#--1. Count the Number of Movies vs TV Shows**
 
 SELECT 
