@@ -25,12 +25,13 @@ CREATE TABLE netflix
 
 ```
 **#--1. Count the Number of Movies vs TV Shows**
-
+``sql
 SELECT 
     type,
     COUNT(*)
 FROM netflix
 GROUP BY 1;
+``
 
 **#--2. Find the Most Common Rating for Movies and TV Shows.**
 
